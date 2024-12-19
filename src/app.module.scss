@@ -1,0 +1,75 @@
+.root {
+ background-color: white;
+}
+
+.buttonStyles{
+  width: 50px;
+  height: 50px;
+}
+
+
+.unavailableSpace { 
+  min-width: 50px;
+  height: 50px;
+  background-color: #d3d3d3;
+}
+
+.spaceSelected { 
+  min-width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.greenButton { 
+  background-color: green;
+  bottom: unset;
+  border: none;
+  padding: 5px;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+.yellowButton {
+ background-color: yellow;
+ bottom: unset;
+ border: none;
+ padding: 5px;
+ margin-right: 8px;
+ margin-top: 10px;
+}
+
+.redButton {
+ background-color: red;
+ bottom: unset;
+ border: none;
+ padding: 5px;
+ margin-right: 8px;
+ margin-top: 10px;
+}
+
+.cancelButton {
+  background-color: black;
+  color: white;
+  bottom: unset;
+  border: none;
+  padding: 5px;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+.yellow { 
+  background-color: yellow;
+}
+
+.red { 
+  background-color: red;
+}
+
+.green { 
+  background-color: green;
+}
